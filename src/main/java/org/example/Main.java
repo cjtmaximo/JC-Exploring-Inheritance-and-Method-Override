@@ -61,10 +61,14 @@ public class Main {
 //        polyEditor.openFile();
 
         // Exercise 3 Mini Challenge
-        GameCharacter regularChar = new GameCharacter();
-        ArmoredCharacter armoredChar = new ArmoredCharacter();
+//        GameCharacter regularChar = new GameCharacter();
+//        ArmoredCharacter armoredChar = new ArmoredCharacter();
+//
+//        regularChar.takeDamage(100);
+//        armoredChar.takeDamage(100);
 
-        regularChar.takeDamage(100);
-        armoredChar.takeDamage(100);
+        // Exercise 4 Mini Challenge
+        CheckingAccount myChecking = new CheckingAccount(100.0);
+        myChecking.deductMonthlyFee();
     }
 }
