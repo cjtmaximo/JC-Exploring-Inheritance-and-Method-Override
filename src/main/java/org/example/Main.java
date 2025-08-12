@@ -29,8 +29,42 @@ public class Main {
 //        Rectangle myRectangle = new Rectangle();
 //        System.out.println(myRectangle.display());
 
-        Dog myDog = new Dog();
-        System.out.println(myDog.breathe());
-        myDog.makeSound();
+        // Exercise 2 Mini Challenge
+//        Dog myDog = new Dog();
+//        System.out.println(myDog.breathe());
+//        myDog.makeSound();
+
+        /* Exercise 3
+        * Predicted output:
+        * --- Regular Editor ---
+        * Opening a generic file.
+        *
+        * --- Code Editor ---
+        * Applying syntax highlighting...
+        * Opening a generic file.
+        *
+        * --- Polymorphic Editor ---
+        * Applying syntax highlighting...
+        * Opening a generic file.
+        * */
+//        Editor myEditor = new Editor();
+//        CodeEditor myCodeEditor = new CodeEditor();
+//        Editor polyEditor = new CodeEditor(); // Polymorphism
+//
+//        System.out.println("--- Regular Editor ---");
+//        myEditor.openFile();
+//
+//        System.out.println("\n--- Code Editor ---");
+//        myCodeEditor.openFile();
+//
+//        System.out.println("\n--- Polymorphic Editor ---");
+//        polyEditor.openFile();
+
+        // Exercise 3 Mini Challenge
+        GameCharacter regularChar = new GameCharacter();
+        ArmoredCharacter armoredChar = new ArmoredCharacter();
+
+        regularChar.takeDamage(100);
+        armoredChar.takeDamage(100);
     }
 }
